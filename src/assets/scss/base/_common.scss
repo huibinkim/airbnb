@@ -3,6 +3,10 @@ body {
     color: $light-black;
     line-height: 1.2;
 }
+button {
+    cursor: pointer;
+}
+
 // font-size
 @for $i from 6 to 28 {
     .fs#{$i} {
