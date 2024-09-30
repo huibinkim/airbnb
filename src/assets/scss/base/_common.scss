@@ -1,0 +1,64 @@
+body {
+    background-color: $white;
+    color: $light-black;
+    line-height: 1.2;
+}
+// font-size
+@for $i from 6 to 28 {
+    .fs#{$i} {
+        font-size: 1px * $i !important;
+    }
+}
+.small {
+    font-size: 10px;
+}
+.normal {
+    font-size: 12px;
+}
+.big {
+    font-size: 14px;
+}
+
+// text-align
+.tl_i {
+    text-align: left !important;
+}
+.tr_i {
+    text-align: right !important;
+}
+.tc_i {
+    text-align: center !important;
+}
+
+// font-weight
+.bold {
+    font-weight: 800;
+}
+.light {
+    font-weight: 400;
+}
+
+// display
+.none {
+    display: none;
+}
+.none_i {
+    display: none !important;
+}
+.block {
+    display: block !important;
+}
+.inline {
+    display: inline !important;
+}
+
+// border none
+.no_b {
+    border: none !important;
+}
+
+// etc
+input,
+textarea &::placeholder {
+    color: $gray-menu;
+}

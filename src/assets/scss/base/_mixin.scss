@@ -1,0 +1,56 @@
+// breakpoints
+@mixin breakpoint($point) {
+    @if $point == xl {
+        @media (max-width: 1280px) {
+            @content;
+        }
+    } @else if $point == minxl {
+        @media (min-width: 1280px) {
+            @content;
+        }
+    } @else if $point == lg {
+        @media (max-width: 1200px) {
+            @content;
+        }
+    } @else if $point == m {
+        @media (max-width: 978px) {
+            @content;
+        }
+    } @else if $point == sm {
+        @media (max-width: 768px) {
+            @content;
+        }
+    } @else if $point == mobile {
+        @media (max-width: 575px) {
+            @content;
+        }
+    }
+}
+
+// flex
+@mixin flex($align, $justify) {
+    display: flex;
+    align-items: $align;
+    justify-content: $justify;
+}
+
+// text overflow 말줄임
+@mixin text-over {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+// border-radius
+@mixin border-radius($radius) {
+    -webkit-border-radius: $radius;
+    border-radius: $radius;
+    background-clip: padding-box;
+}
+
+// opacity
+@mixin opacity($opacity) {
+    opacity: $opacity;
+    $opacity-ie: $opacity * 100;
+    filter: alpha(opacity=$opacity-ie); //IE8
+}
