@@ -31,7 +31,7 @@ svg {
 
 *::-webkit-scrollbar-thumb {
     height: 2px !important;
-    background: $simple-scrollbar;
+    background: #747474;
     border-radius: 5px;
 }
 
