@@ -12,6 +12,7 @@
         <link rel="stylesheet" href="../assets/css/reset.css">
         <link rel="stylesheet" href="../assets/scss/common.css">
         <link rel="stylesheet" href="../assets/scss/main.css">
+        <link rel="stylesheet" href="../assets/scss/icon.css">
         <title>airbnb | 휴가지 숙소, 통나무집 등</title>
     </head>
     <body>
@@ -56,7 +57,10 @@
                                     <span>여행자</span>
                                     <input type="search" placeholder="게스트 추가"></input>
                                 </div>
-                                <button>검색</button>
+                                <button>
+                                    <i class="ico ico--search"></i>
+                                    <span>검색</span>
+                                </button>
                             </div>
                         </div>
                     </div>
@@ -67,13 +71,17 @@
                         <div>당신의 공간을 비앤비하세요</div>
                         <div class="header--admin__lang">
                             <button>
-                                <i class="ico ico--lang"></i>
+                                <i class="ico ico--global"></i>
                             </button>
                         </div>
                         <div class="header--admin__gnb">
-                            <div class="gnb-menu"></div>
-                            <div class="gnb-user"></div>
-                            <div class="gnb-sub">
+                            <button class="gnb--menu">
+                                <i class="ico ico--menu"></i>
+                            </button>
+                            <div class="gnb--user">
+                                <span>H</span>
+                            </div>
+                            <div class="gnb--sub">
                                 <ul>
                                     <li></li>
                                     <li></li>
@@ -90,7 +98,7 @@
 
             <div class="content">
                 <!-- 테마에 따른 선택 바 -->
-                <!-- <nav>
+                <nav>
                     <div class="nav--icon">
                         <ul>
                             <li></li>
@@ -100,7 +108,7 @@
                             <li></li>
                         </ul>
                     </div>
-                </nav> -->
+                </nav>
                 <!-- 테마에 따른 선택 바 -->
 
                 <main>

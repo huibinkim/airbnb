@@ -10,12 +10,18 @@
 header {
     width: 100%;
     height: fit-content;
-    padding: 0 80px;
 
+    &::after {
+        display: inline-block;
+        content: " ";
+        width: 100%;
+        padding-top: 100px;
+        border-bottom: 1px solid $light-gray;
+    }
     .header {
         @include flex(center, space-between);
         position: relative;
-        padding: 10px 0;
+        padding: 10px 80px;
         &--title {
             a {
                 @include flex(center, flex-start);
@@ -32,6 +38,7 @@ header {
         }
 
         &--search {
+            width: fit-content;
             &__btn {
                 @include flex(center, center);
                 gap: 24px;
@@ -51,7 +58,7 @@ header {
                 @include border-radius(50px);
                 @include flex(center, space-between);
                 position: absolute;
-                top: 98px;
+                top: 83px;
                 transform: translateX(-40%);
                 border: 1px solid $gray-menu;
 
@@ -64,12 +71,52 @@ header {
                     flex-direction: column;
                     gap: 5px;
                     padding: 14px 24px;
+                    font-size: 14px;
+
+                    input::placeholder {
+                        font-size: 16px;
+                    }
                 }
             }
         }
 
         &--admin {
             @include flex(center, flex-end);
+            gap: 20px;
+
+            &__lang {
+                height: 20px;
+            }
+            &__gnb {
+                @include flex(center, normal);
+                gap: 12px;
+                padding: 8px 12px;
+                border: 1px solid $light-gray;
+                border-radius: 50px;
+                .gnb--menu {
+                    height: 20px;
+                }
+                .gnb--user {
+                    display: flex;
+                    align-items: center;
+                    padding: 10px 12px;
+                    border-radius: 50%;
+                    background-color: $black;
+                    span {
+                        color: $white;
+                    }
+                }
+
+                .gnb--sub {
+                    display: none;
+                }
+            }
         }
     }
+}
+
+// content
+.content {
+    width: 100%;
+    height: calc(100% - 172px);
 }

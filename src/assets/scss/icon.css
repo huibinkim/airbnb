@@ -1,0 +1,23 @@
+button {
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+button .ico {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-sizing: border-box;
+}
+button .ico--search {
+  background: url(../images/icon/ico--search.svg) center/20px no-repeat;
+}
+button .ico--global {
+  background: url(../images/icon/ico--global.svg) center/20px no-repeat;
+}
+button .ico--menu {
+  background: url(../images/icon/ico--menu.svg) center/20px no-repeat;
+}/*# sourceMappingURL=icon.css.map */

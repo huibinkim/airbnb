@@ -55,7 +55,9 @@ textarea {
     margin: 0;
     border: none;
     background: transparent;
+    outline: none;
 }
+
 select::-ms-expand {
     display: none;
 }
