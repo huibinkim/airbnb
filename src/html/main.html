@@ -10,96 +10,99 @@
         <meta property="og:description" content="airbnb clone project page" />
         <meta property="og:title" content="airbnb clone project" />
         <link rel="stylesheet" href="../assets/css/reset.css">
-        <link rel="stylesheet" href="../assets/css/common.css">
+        <link rel="stylesheet" href="../assets/scss/common.css">
         <title>airbnb | 휴가지 숙소, 통나무집 등</title>
     </head>
     <body>
-        <header class="header" role="heading">
-            <div>
-                <h1 class="title">
-                    <img
-                        src="../assets/images/logo/airbnb_logo.svg"
-                        alt="logo 이미지"
-                    />
-                    airbnb
-                </h1>
+        <div class="wrap">
+            <header role="heading">
+                <div class="header">
+                    <div class="header--title">
+                        <a href="#">
+                            <img
+                            src="../assets/images/logo/airbnb_logo.svg"
+                            alt="logo 이미지"
+                            />
+                            <h1 title="airbnb">airbnb</h1>
+                        </a>
+                    </div>
 
-                <!-- 여행 검색 창 -->
-                <div class="header--search">
-                    <div class="header--search__btn">
-                        <button>
-                            <span>숙소</span>
-                        </button>
-                        <button>
-                            <span>체험</span>
-                        </button>
+                    <!-- 여행 검색 창 -->
+                    <div class="header--search">
+                        <div class="header--search__btn">
+                            <button>
+                                <span>숙소</span>
+                            </button>
+                            <button>
+                                <span>체험</span>
+                            </button>
+                        </div>
+                        <div class="header--search__con">
+                            <div class="search-box">
+                                <span>여행지</span>
+                                <input type="search" placeholder="여행지 체험"></input>
+                            </div>
+                            <div class="search-box">
+                                <span>체크인</span>
+                                <input type="date" placeholder="날짜 추가"></input>
+                            </div>
+                            <div class="search-box">
+                                <span>체크아웃</span>
+                                <input type="date" placeholder="날짜 추가"></input>
+                            </div>
+                            <div class="search-box">
+                                <span>여행자</span>
+                                <input type="search" placeholder="게스트 추가"></input>
+                            </div>
+                            <button>검색</button>
+                        </div>
                     </div>
-                    <div class="header--search__con">
-                        <div class="search-box">
-                            <span>여행지</span>
-                            <input type="search" placeholder="여행지 체험"></input>
-                        </div>
-                        <div class="search-box">
-                            <span>체크인</span>
-                            <input type="date" placeholder="날짜 추가"></input>
-                        </div>
-                        <div class="search-box">
-                            <span>체크아웃</span>
-                            <input type="date" placeholder="날짜 추가"></input>
-                        </div>
-                        <div class="search-box">
-                            <span>여행자</span>
-                            <input type="search" placeholder="게스트 추가"></input>
-                        </div>
-                        <button>검색</button>
-                        
-                    </div>
-                </div>
-                <!-- 여행 검색 창 -->
+                    <!-- 여행 검색 창 -->
 
-                <!-- user 메뉴 -->
-                <div class="header--admin">
-                    <div>당신의 공간을 비앤비하세요</div>
-                    <div class="header--admin__lang"></div>
-                    <div class="header--admin__gnb">
-                        <div class="gnb-menu"></div>
-                        <div class="gnb-user"></div>
-                        <div class="gnb-sub">
-                            <ul>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                            </ul>
+                    <!-- user 메뉴 -->
+                    <div class="header--admin">
+                        <div>당신의 공간을 비앤비하세요</div>
+                        <div class="header--admin__lang"></div>
+                        <div class="header--admin__gnb">
+                            <div class="gnb-menu"></div>
+                            <div class="gnb-user"></div>
+                            <div class="gnb-sub">
+                                <ul>
+                                    <li></li>
+                                    <li></li>
+                                    <li></li>
+                                    <li></li>
+                                    <li></li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
+                    <!-- user 메뉴 -->
                 </div>
-                <!-- user 메뉴 -->
+            </header>
+
+            <div class="content">
+                <!-- 테마에 따른 선택 바 -->
+                <!-- <nav>
+                    <div class="nav--icon">
+                        <ul>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </div>
+                </nav> -->
+                <!-- 테마에 따른 선택 바 -->
+
+                <main>
+                    <section></section>
+                </main>
             </div>
-        </header>
 
-        <div>
-            <!-- 테마에 따른 선택 바 -->
-            <!-- <nav>
-                <div class="nav--icon">
-                    <ul>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                    </ul>
-                </div>
-            </nav> -->
-            <!-- 테마에 따른 선택 바 -->
-
-            <main>
-                <section></section>
-            </main>
+            <footer></footer>
         </div>
-
-        <footer></footer>
     </body>
 
     <script src=""></script>

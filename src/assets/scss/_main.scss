@@ -1,0 +1,54 @@
+.wrap {
+    width: 100%;
+    height: 100%;
+}
+
+// header
+header {
+    width: 100%;
+    height: fit-content;
+    padding: 0 80px;
+
+    .header {
+        @include flex(center, space-between);
+
+        &--title {
+            a {
+                @include flex(center, flex-start);
+                gap: 5px;
+                img {
+                    width: fit-content;
+                    height: 36px;
+                }
+                h1 {
+                    @include font(850, 24px);
+                    color: $main;
+                }
+            }
+        }
+
+        &--search {
+            &__btn {
+                @include flex(center, center);
+                gap: 24px;
+                padding: 20px 0;
+                span {
+                    font-size: $default;
+                    color: $gray-menu;
+                    &:hover {
+                        color: $light-black;
+                    }
+                }
+            }
+            // 검색
+            &__con {
+                @include flex(center, space-between);
+                position: absolute;
+                left: 27%;
+                padding: 14px 24px;
+                border: 1px solid $gray-menu;
+                @include border-radius(50px);
+            }
+        }
+    }
+}

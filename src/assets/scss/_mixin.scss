@@ -33,6 +33,11 @@
     align-items: $align;
     justify-content: $justify;
 }
+// font-style
+@mixin font($bold, $size) {
+    font-weight: $bold;
+    font-size: $size;
+}
 
 // text overflow 말줄임
 @mixin text-over {
