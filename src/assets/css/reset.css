@@ -53,6 +53,8 @@ textarea {
     -moz-appearance: none;
     appearance: none;
     margin: 0;
+    border: none;
+    background: transparent;
 }
 select::-ms-expand {
     display: none;

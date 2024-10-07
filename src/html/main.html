@@ -11,6 +11,7 @@
         <meta property="og:title" content="airbnb clone project" />
         <link rel="stylesheet" href="../assets/css/reset.css">
         <link rel="stylesheet" href="../assets/scss/common.css">
+        <link rel="stylesheet" href="../assets/scss/main.css">
         <title>airbnb | 휴가지 숙소, 통나무집 등</title>
     </head>
     <body>
@@ -40,7 +41,7 @@
                         <div class="header--search__con">
                             <div class="search-box">
                                 <span>여행지</span>
-                                <input type="search" placeholder="여행지 체험"></input>
+                                <input type="search" placeholder="여행지 검사"></input>
                             </div>
                             <div class="search-box">
                                 <span>체크인</span>
@@ -50,11 +51,13 @@
                                 <span>체크아웃</span>
                                 <input type="date" placeholder="날짜 추가"></input>
                             </div>
-                            <div class="search-box">
-                                <span>여행자</span>
-                                <input type="search" placeholder="게스트 추가"></input>
+                            <div class="search-check">
+                                <div class="search-box">
+                                    <span>여행자</span>
+                                    <input type="search" placeholder="게스트 추가"></input>
+                                </div>
+                                <button>검색</button>
                             </div>
-                            <button>검색</button>
                         </div>
                     </div>
                     <!-- 여행 검색 창 -->
@@ -62,7 +65,11 @@
                     <!-- user 메뉴 -->
                     <div class="header--admin">
                         <div>당신의 공간을 비앤비하세요</div>
-                        <div class="header--admin__lang"></div>
+                        <div class="header--admin__lang">
+                            <button>
+                                <i class="ico ico--lang"></i>
+                            </button>
+                        </div>
                         <div class="header--admin__gnb">
                             <div class="gnb-menu"></div>
                             <div class="gnb-user"></div>
