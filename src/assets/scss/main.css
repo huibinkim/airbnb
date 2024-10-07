@@ -19,7 +19,6 @@ header .header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  position: relative;
   padding: 10px 80px;
 }
 header .header--title a {
@@ -41,6 +40,7 @@ header .header--title a h1 {
 header .header--search {
   width: -moz-fit-content;
   width: fit-content;
+  display: flex;
 }
 header .header--search__btn {
   display: flex;
@@ -64,9 +64,8 @@ header .header--search__con {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  position: absolute;
+  position: relative;
   top: 83px;
-  transform: translateX(-40%);
   border: 1px solid #747474;
 }
 header .header--search__con .search-check {
