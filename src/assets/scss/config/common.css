@@ -1,17 +1,3 @@
-.ico {
-  width: 20px;
-  height: 20px;
-  display: inline-block;
-  padding: 10px;
-  box-sizing: border-box;
-}
-.ico--search {
-  background: url(../images/icon/ico--search.svg) left/20px no-repeat;
-}
-.ico--global {
-  background: url(../images/icon/ico--global.svg) contain/center;
-}
-
 body {
   background-color: #ffffff;
   color: #222222;
