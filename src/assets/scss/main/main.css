@@ -182,7 +182,7 @@ header .header--admin__gnb .gnb--sub {
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  gap: 55px;
+  gap: 20px;
 }
 .content .nav--con__list .nav--icon {
   display: flex;
@@ -326,11 +326,11 @@ header .header--admin__gnb .gnb--sub {
   width: 100%;
   height: -moz-fit-content;
   height: fit-content;
-  padding: 10px 80px;
   position: sticky;
   bottom: 0;
   display: flex;
   flex-direction: column;
+  padding: 10px 80px;
   background-color: #ffffff;
   border-top: 1px solid #dfdfdf;
 }

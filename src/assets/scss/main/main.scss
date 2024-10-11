@@ -21,11 +21,14 @@ header {
         @include flex(center, space-between);
         flex-wrap: wrap;
         padding: 10px 80px;
+
         &--title {
             width: 21%;
+
             a {
                 @include flex(center, flex-start);
                 gap: 5px;
+
                 img {
                     width: fit-content;
                     height: 36px;
@@ -44,11 +47,13 @@ header {
             &__btn {
                 @include flex(center, center);
                 gap: 16px;
+
                 span {
                     padding: 8px 12px;
                     border-radius: 20px;
                     font-size: $default;
                     color: $gray-menu;
+
                     &:hover {
                         color: $light-black;
                         background-color: $light-gray;
@@ -67,6 +72,7 @@ header {
                 width: 50%;
                 @include border-radius(50px);
                 @include flex(center, space-between);
+
                 border: 1px solid $light-gray;
                 box-shadow: 0 3px 12px 0 rgba(0, 0, 0, 0.1),
                     0 1px 2px 0 rgba(0, 0, 0, 0.08);
@@ -74,6 +80,7 @@ header {
                 .search-check {
                     @include flex(center, space-between);
                     padding-right: 24px;
+
                     button {
                         padding: 14px;
                         background-color: $main;
@@ -82,11 +89,13 @@ header {
                         align-items: center;
                     }
                 }
+
                 .search-box {
                     @include flex(flex-start, flex-start);
                     flex-direction: column;
                     gap: 5px;
                     position: relative;
+
                     padding: 14px 24px;
                     font-size: 14px;
 
@@ -165,14 +174,14 @@ header {
         @include flex(center, space-between);
         gap: 10px;
         flex-wrap: nowrap;
+
         padding: 16px 0;
         font-size: 12px;
 
         &__list {
             width: calc(94% - 20px);
-
             @include flex(center, flex-start);
-            gap: 55px;
+            gap: 20px;
 
             .nav--icon {
                 @include flex(center, center);
@@ -186,6 +195,7 @@ header {
             @include flex(center, center);
             border: 1px solid $light-gray;
             border-radius: 100%;
+
             button {
                 width: 20px;
                 height: 20px;
@@ -217,15 +227,18 @@ header {
 
         &__box {
             width: 270px;
+
             &-img {
                 width: inherit;
                 position: relative;
+
                 img {
                     max-width: 270px;
                     min-height: 260px;
                     box-sizing: border-box;
                     border-radius: 10px;
                 }
+
                 .box--check {
                     width: 25px;
                     height: 25px;
@@ -247,6 +260,7 @@ header {
                         }
                     }
                 }
+
                 .box--best {
                     position: absolute;
                     top: 12px;
@@ -303,6 +317,7 @@ header {
                         color: $gray-menu;
                     }
                 }
+
                 .box--amount {
                     color: #000;
                     span {
@@ -318,11 +333,13 @@ header {
 .footer {
     width: 100%;
     height: fit-content;
-    padding: 10px 80px;
     position: sticky;
     bottom: 0;
+
     display: flex;
     flex-direction: column;
+    padding: 10px 80px;
+
     background-color: $white;
     border-top: 1px solid $light-gray;
 
@@ -351,6 +368,7 @@ header {
         &__select {
             @include flex(center, flex-end);
             gap: 20px;
+
             button {
                 @include flex(center, flex-start);
                 gap: 5px;
