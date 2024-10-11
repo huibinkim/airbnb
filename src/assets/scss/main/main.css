@@ -320,4 +320,71 @@ header .header--admin__gnb .gnb--sub {
 .content--list__box-detail .box--amount span {
   font-weight: 800;
   padding-right: 5px;
+}
+
+.footer {
+  width: 100%;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 10px 80px;
+  position: sticky;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  border-top: 1px solid #dfdfdf;
+}
+.footer--above {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  font-size: 14px;
+}
+.footer--above__company ul {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.footer--above__company ul li:not(:first-child)::before {
+  display: inline-block;
+  content: "ㆍ";
+  position: relative;
+  left: -9px;
+  width: 3px;
+  height: 3px;
+  margin-right: 10px;
+}
+.footer--above__select {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 20px;
+}
+.footer--above__select button {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 5px;
+}
+.footer--above__select button span {
+  font-size: 14px;
+}
+.footer--above__select button:hover {
+  text-decoration: underline;
+}
+.footer--above::after {
+  display: inline-block;
+  content: "";
+  width: 100%;
+  margin: 10px 0 10px;
+  border-top: 1px solid #dfdfdf;
+}
+.footer--bottom {
+  width: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  font-size: 12px;
 }/*# sourceMappingURL=main.css.map */
