@@ -13,9 +13,87 @@ button {
             background: url(../../images/icon/ico--search.svg) center/20px
                 no-repeat;
         }
-        &--global {
-            background: url(../../images/icon/header/ico--global.svg)
-                center/contain no-repeat;
+        &--nav {
+            &-global {
+                background: url(../../images/icon/header/ico--global.svg)
+                    center/20px no-repeat;
+            }
+            &-beach {
+                background: url(../../images/nav/ico--nav-beach.svg) center/20px
+                    no-repeat;
+            }
+            &-boat {
+                background: url(../../images/nav/ico--nav-boat.svg) center/20px
+                    no-repeat;
+            }
+            &-architecture {
+                background: url(../../images/nav/ico--nav-architecture.svg)
+                    center/20px no-repeat;
+            }
+            &-b {
+                background: url(../../images/nav/ico--nav-b.svg) center/20px
+                    no-repeat;
+            }
+            &-cabin {
+                background: url(../../images/nav/ico--nav-cabin.svg) center/20px
+                    no-repeat;
+            }
+            &-camping {
+                background: url(../../images/nav/ico--nav-camping.svg)
+                    center/20px no-repeat;
+            }
+            &-castle {
+                background: url(../../images/nav/ico--nav-castle.svg)
+                    center/20px no-repeat;
+            }
+            &-container {
+                background: url(../../images/nav/ico--nav-container.svg)
+                    center/20px no-repeat;
+            }
+            &-cave {
+                background: url(../../images/nav/ico--nav-cave.svg) center/20px
+                    no-repeat;
+            }
+            &-countryside {
+                background: url(../../images/nav/ico--nav-countryside.svg)
+                    center/20px no-repeat;
+            }
+            &-desert {
+                background: url(../../images/nav/ico--nav-desert.svg)
+                    center/20px no-repeat;
+            }
+            &-dome {
+                background: url(../../images/nav/ico--nav-dome.svg) center/20px
+                    no-repeat;
+            }
+            &-farm {
+                background: url(../../images/nav/ico--nav-farm.svg) center/20px
+                    no-repeat;
+            }
+            &-fire {
+                background: url(../../images/nav/ico--nav-fire.svg) center/20px
+                    no-repeat;
+            }
+            &-golf {
+                background: url(../../images/nav/ico--nav-golf.svg) center/20px
+                    no-repeat;
+            }
+            &-grape {
+                background: url(../../images/nav/ico--nav-grape.svg) center/20px
+                    no-repeat;
+            }
+            &-hanok {
+                background: url(../../images/nav/ico--nav-hanok.svg) center/20px
+                    no-repeat;
+            }
+            &-island {
+                background: url(../../images/nav/ico--nav-island.svg)
+                    center/20px no-repeat;
+            }
+            &-house {
+                background: url(../../images/nav/ico--nav-house.svg) center/20px
+                    no-repeat;
+            }
         }
         &--menu {
             background: url(../../images/icon/header/ico--menu.svg) center/20px
@@ -36,13 +114,13 @@ button {
         &--heart {
             background: url(../../images/icon/ico--heart.svg) center/25px
                 no-repeat;
-            &_empty {
+            &-empty {
                 background: url(../../images/icon/ico--heart-empty.svg)
                     center/25px no-repeat;
             }
         }
         &--arr {
-            &_right {
+            &-right {
                 background: url(../../images/icon/ico--right-arr.svg)
                     center/14px no-repeat;
             }
