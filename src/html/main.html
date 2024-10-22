@@ -11,9 +11,9 @@
         <meta property="og:title" content="airbnb clone project" />
         <link rel="shortcut icon" href="../assets/images/logo/airbnb_logo.svg" type="image/x-icon">
         <link rel="stylesheet" href="../assets/css/reset.css">
-        <link rel="stylesheet" href="../assets/scss/main/main.css">
-        <link rel="stylesheet" href="../assets/scss/config/common.css">
         <link rel="stylesheet" href="../assets/scss/config/icon.css">
+        <link rel="stylesheet" href="../assets/scss/config/common.css">
+        <link rel="stylesheet" href="../assets/scss/main/main.css">
         <title>airbnb | 휴가지 숙소, 통나무집 등</title>
     </head>
     <body>
@@ -46,10 +46,12 @@
 
                     <!-- user 메뉴 -->
                     <div class="header--admin">
-                        <div>당신의 공간을 비앤비하세요</div>
+                        <div class="header--admin__sell">
+                            <button>당신의 공간을 비앤비하세요</button>
+                        </div>
                         <div class="header--admin__lang">
                             <button>
-                                <i class="ico ico--nav-global"></i>
+                                <i class="ico ico--global"></i>
                             </button>
                         </div>
                         <div class="header--admin__gnb">
@@ -59,7 +61,7 @@
                             <div class="gnb--user">
                                 <button>
                                     <i class="ico ico--user"></i>
-                                     <!-- <span>H</span> -->
+                                    <!-- <span>H</span> -->
                                 </button>
                             </div>
                             <div class="gnb--sub">
@@ -77,22 +79,28 @@
 
                     <div class="header--search">
                         <div class="header--search__con">
-                            <div class="search-box">
+                            <div class="search--box">
                                 <span>여행지</span>
                                 <input type="search" placeholder="여행지 검사"></input>
                             </div>
-                            <div class="search-box bar">
-                                <span>체크인</span>
-                                <input type="date" placeholder="날짜 추가"></input>
+                            <div class="search--box">
+                                <span class="bar">체크인</span>
+                                <div class="search--box__inner">
+                                    <p>날짜 추가</p>
+                                </div>
                             </div>
-                            <div class="search-box bar">
-                                <span>체크아웃</span>
-                                <input type="date" placeholder="날짜 추가"></input>
+                            <div class="search--box">
+                                <span class="bar">체크아웃</span>
+                                <div class="search--box__inner">
+                                    <p>날짜 추가</p>
+                                </div>
                             </div>
                             <div class="search-check">
-                                <div class="search-box bar">
-                                    <span>여행자</span>
-                                    <input type="search" placeholder="게스트 추가"></input>
+                                <div class="search--box">
+                                    <span class="bar">여행자</span>
+                                    <div class="search--box__inner">
+                                        <p>게스트 추가</p>
+                                    </div>
                                 </div>
                                 <button title="검색">
                                     <i class="ico ico--search"></i>
@@ -109,7 +117,7 @@
                     <div class="nav--con__list">
                         <ul class="nav--con__list">
                             <li class="nav--icon">
-                                <button><i class="ico ico--nav-global"></i></button>
+                                <button><i class="ico ico--nav-ticket"></i></button>
                                 <span>컬처 아이콘</span>
                             </li>
                             <li class="nav--icon">
@@ -176,11 +184,16 @@
                                 <button><i class="ico ico--nav-fire"></i></button>
                                 <span>컬처 아이콘</span>
                             </li>
+                            <li class="nav--icon">
+                                <button><i class="ico ico--nav-kids"></i></button>
+                                <span>컬처 아이콘</span>
+                            </li>
                         </ul>
+                        <div class="nav--con__arr">
+                            <button><i class="ico ico--arr-right"></i></button>
+                        </div>
                     </div>
-                    <div class="nav--con__arr">
-                        <button><i class="ico ico--arr-right"></i></button>
-                    </div>
+
                     <button class="nav--con__filter">
                         <i class="ico ico--filter"></i>
                         <span>필터</span>
@@ -390,6 +403,70 @@
                         </a>
                     </div>
                     
+                    <div class="content--list__box">
+                        <a href="#">
+                            <div class="content--list__box-img">
+
+                                <img src="../assets/images/item/item01.jpeg" alt="숙소 이미지">
+                                <div class="box--check">
+                                    <button class="heart-btn">
+                                        <i class="ico ico--heart-empty"></i>
+                                    </button>
+                                </div>
+                                
+                            </div>
+
+                            <div class="content--list__box-detail">
+                                <div class="box--con">
+                                    <div class="box--con__title">
+                                        <p>한국 양평군 양평리 양양diddiddi양양양</p>
+                                        <span>4.99</span>
+                                    </div>
+                                    <div class="box--con__distance">
+                                        <p><span>86</span>km 거리</p>
+                                    </div>
+                                    <div class="box--con__date">
+                                        <p>10월24일 ~ 25일</p>
+                                    </div>
+                                </div>
+                                <div class="box--amount">
+                                    <p><span>114,333</span>/박</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="content--list__box">
+                        <a href="#">
+                            <div class="content--list__box-img">
+
+                                <img src="../assets/images/item/item01.jpeg" alt="숙소 이미지">
+                                <div class="box--check">
+                                    <button class="heart-btn">
+                                        <i class="ico ico--heart-empty"></i>
+                                    </button>
+                                </div>
+                                
+                            </div>
+
+                            <div class="content--list__box-detail">
+                                <div class="box--con">
+                                    <div class="box--con__title">
+                                        <p>한국 양평군 양평리 양양diddiddi양양양</p>
+                                        <span>4.99</span>
+                                    </div>
+                                    <div class="box--con__distance">
+                                        <p><span>86</span>km 거리</p>
+                                    </div>
+                                    <div class="box--con__date">
+                                        <p>10월24일 ~ 25일</p>
+                                    </div>
+                                </div>
+                                <div class="box--amount">
+                                    <p><span>114,333</span>/박</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
                     <div class="content--list__box">
                         <a href="#">
                             <div class="content--list__box-img">

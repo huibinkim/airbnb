@@ -15,71 +15,129 @@ button .ico {
 button .ico--search {
   background: url(../../images/icon/ico--search.svg) center/20px no-repeat;
 }
-button .ico--nav-global {
+button .ico--global {
   background: url(../../images/icon/header/ico--global.svg) center/20px no-repeat;
 }
+button .ico--nav {
+  width: 25px;
+  height: 25px;
+}
 button .ico--nav-beach {
-  background: url(../../images/nav/ico--nav-beach.svg) center/20px no-repeat;
+  background: url(../../images/nav/ico--nav-beach.svg) center/25px no-repeat;
 }
 button .ico--nav-boat {
-  background: url(../../images/nav/ico--nav-boat.svg) center/20px no-repeat;
+  background: url(../../images/nav/ico--nav-boat.svg) center/25px no-repeat;
 }
 button .ico--nav-architecture {
-  background: url(../../images/nav/ico--nav-architecture.svg) center/20px no-repeat;
+  background: url(../../images/nav/ico--nav-architecture.svg) center/25px no-repeat;
 }
 button .ico--nav-b {
   background: url(../../images/nav/ico--nav-b.svg) center/20px no-repeat;
 }
 button .ico--nav-cabin {
-  background: url(../../images/nav/ico--nav-cabin.svg) center/20px no-repeat;
+  background: url(../../images/nav/ico--nav-cabin.svg) center/25px no-repeat;
 }
 button .ico--nav-camping {
-  background: url(../../images/nav/ico--nav-camping.svg) center/20px no-repeat;
+  background: url(../../images/nav/ico--nav-camping.svg) center/25px no-repeat;
 }
 button .ico--nav-castle {
-  background: url(../../images/nav/ico--nav-castle.svg) center/20px no-repeat;
+  background: url(../../images/nav/ico--nav-castle.svg) center/25px no-repeat;
 }
 button .ico--nav-container {
-  background: url(../../images/nav/ico--nav-container.svg) center/20px no-repeat;
+  background: url(../../images/nav/ico--nav-container.svg) center/25px no-repeat;
 }
 button .ico--nav-cave {
-  background: url(../../images/nav/ico--nav-cave.svg) center/20px no-repeat;
+  background: url(../../images/nav/ico--nav-cave.svg) center/25px no-repeat;
 }
 button .ico--nav-countryside {
-  background: url(../../images/nav/ico--nav-countryside.svg) center/20px no-repeat;
+  background: url(../../images/nav/ico--nav-countryside.svg) center/25px no-repeat;
 }
 button .ico--nav-desert {
-  background: url(../../images/nav/ico--nav-desert.svg) center/20px no-repeat;
+  background: url(../../images/nav/ico--nav-desert.svg) center/25px no-repeat;
 }
 button .ico--nav-dome {
-  background: url(../../images/nav/ico--nav-dome.svg) center/20px no-repeat;
+  background: url(../../images/nav/ico--nav-dome.svg) center/25px no-repeat;
 }
 button .ico--nav-farm {
-  background: url(../../images/nav/ico--nav-farm.svg) center/20px no-repeat;
+  background: url(../../images/nav/ico--nav-farm.svg) center/25px no-repeat;
 }
 button .ico--nav-fire {
-  background: url(../../images/nav/ico--nav-fire.svg) center/20px no-repeat;
+  background: url(../../images/nav/ico--nav-fire.svg) center/25px no-repeat;
 }
 button .ico--nav-golf {
-  background: url(../../images/nav/ico--nav-golf.svg) center/20px no-repeat;
+  background: url(../../images/nav/ico--nav-golf.svg) center/23px no-repeat;
 }
 button .ico--nav-grape {
-  background: url(../../images/nav/ico--nav-grape.svg) center/20px no-repeat;
+  background: url(../../images/nav/ico--nav-grape.svg) center/23px no-repeat;
 }
 button .ico--nav-hanok {
-  background: url(../../images/nav/ico--nav-hanok.svg) center/20px no-repeat;
+  background: url(../../images/nav/ico--nav-hanok.svg) center/25px no-repeat;
 }
 button .ico--nav-island {
-  background: url(../../images/nav/ico--nav-island.svg) center/20px no-repeat;
+  background: url(../../images/nav/ico--nav-island.svg) center/25px no-repeat;
 }
 button .ico--nav-house {
   background: url(../../images/nav/ico--nav-house.svg) center/20px no-repeat;
+}
+button .ico--nav-kids {
+  background: url(../../images/nav/ico--nav-kids.svg) center/20px no-repeat;
+}
+button .ico--nav-lake {
+  background: url(../../images/nav/ico--nav-lake.svg) center/20px no-repeat;
+}
+button .ico--nav-landscape {
+  background: url(../../images/nav/ico--nav-landscape.svg) center/20px no-repeat;
+}
+button .ico--nav-luxe {
+  background: url(../../images/nav/ico--nav-luxe.svg) center/20px no-repeat;
+}
+button .ico--nav-mansion {
+  background: url(../../images/nav/ico--nav-mansion.svg) center/20px no-repeat;
+}
+button .ico--nav-micro {
+  background: url(../../images/nav/ico--nav-micro.svg) center/20px no-repeat;
+}
+button .ico--nav-park {
+  background: url(../../images/nav/ico--nav-park.svg) center/20px no-repeat;
+}
+button .ico--nav-piano {
+  background: url(../../images/nav/ico--nav-piano.svg) center/20px no-repeat;
+}
+button .ico--nav-pisa {
+  background: url(../../images/nav/ico--nav-pisa.svg) center/20px no-repeat;
+}
+button .ico--nav-pool {
+  background: url(../../images/nav/ico--nav-pool.svg) center/20px no-repeat;
+}
+button .ico--nav-room {
+  background: url(../../images/nav/ico--nav-room.svg) center/20px no-repeat;
+}
+button .ico--nav-scenery {
+  background: url(../../images/nav/ico--nav-scenery.svg) center/20px no-repeat;
+}
+button .ico--nav-ski {
+  background: url(../../images/nav/ico--nav-ski.svg) center/20px no-repeat;
+}
+button .ico--nav-snowflake {
+  background: url(../../images/nav/ico--nav-snowflake.svg) center/20px no-repeat;
+}
+button .ico--nav-space {
+  background: url(../../images/nav/ico--nav-space.svg) center/20px no-repeat;
+}
+button .ico--nav-surf {
+  background: url(../../images/nav/ico--nav-surf.svg) center/20px no-repeat;
+}
+button .ico--nav-ticket {
+  background: url(../../images/nav/ico--nav-ticket.svg) center/20px no-repeat;
+}
+button .ico--nav-unique {
+  background: url(../../images/nav/ico--nav-unique.svg) center/20px no-repeat;
 }
 button .ico--menu {
   background: url(../../images/icon/header/ico--menu.svg) center/20px no-repeat;
 }
 button .ico--user {
-  background: url(../../images/icon/header/ico--user.svg) center/20px no-repeat;
+  background: url(../../images/icon/header/ico--user.svg) center/15px no-repeat;
 }
 button .ico--filter {
   background: url(../../images/icon/ico--filter.svg) center/20px no-repeat;

@@ -13,86 +13,161 @@ button {
             background: url(../../images/icon/ico--search.svg) center/20px
                 no-repeat;
         }
+        &--global {
+            background: url(../../images/icon/header/ico--global.svg)
+                center/20px no-repeat;
+        }
         &--nav {
-            &-global {
-                background: url(../../images/icon/header/ico--global.svg)
-                    center/20px no-repeat;
-            }
+            width: 25px;
+            height: 25px;
+
             &-beach {
-                background: url(../../images/nav/ico--nav-beach.svg) center/20px
+                background: url(../../images/nav/ico--nav-beach.svg) center/25px
                     no-repeat;
             }
             &-boat {
-                background: url(../../images/nav/ico--nav-boat.svg) center/20px
+                background: url(../../images/nav/ico--nav-boat.svg) center/25px
                     no-repeat;
             }
             &-architecture {
                 background: url(../../images/nav/ico--nav-architecture.svg)
-                    center/20px no-repeat;
+                    center/25px no-repeat;
             }
             &-b {
                 background: url(../../images/nav/ico--nav-b.svg) center/20px
                     no-repeat;
             }
             &-cabin {
-                background: url(../../images/nav/ico--nav-cabin.svg) center/20px
+                background: url(../../images/nav/ico--nav-cabin.svg) center/25px
                     no-repeat;
             }
             &-camping {
                 background: url(../../images/nav/ico--nav-camping.svg)
-                    center/20px no-repeat;
+                    center/25px no-repeat;
             }
             &-castle {
                 background: url(../../images/nav/ico--nav-castle.svg)
-                    center/20px no-repeat;
+                    center/25px no-repeat;
             }
             &-container {
                 background: url(../../images/nav/ico--nav-container.svg)
-                    center/20px no-repeat;
+                    center/25px no-repeat;
             }
             &-cave {
-                background: url(../../images/nav/ico--nav-cave.svg) center/20px
+                background: url(../../images/nav/ico--nav-cave.svg) center/25px
                     no-repeat;
             }
             &-countryside {
                 background: url(../../images/nav/ico--nav-countryside.svg)
-                    center/20px no-repeat;
+                    center/25px no-repeat;
             }
             &-desert {
                 background: url(../../images/nav/ico--nav-desert.svg)
-                    center/20px no-repeat;
+                    center/25px no-repeat;
             }
             &-dome {
-                background: url(../../images/nav/ico--nav-dome.svg) center/20px
+                background: url(../../images/nav/ico--nav-dome.svg) center/25px
                     no-repeat;
             }
             &-farm {
-                background: url(../../images/nav/ico--nav-farm.svg) center/20px
+                background: url(../../images/nav/ico--nav-farm.svg) center/25px
                     no-repeat;
             }
             &-fire {
-                background: url(../../images/nav/ico--nav-fire.svg) center/20px
+                background: url(../../images/nav/ico--nav-fire.svg) center/25px
                     no-repeat;
             }
             &-golf {
-                background: url(../../images/nav/ico--nav-golf.svg) center/20px
+                background: url(../../images/nav/ico--nav-golf.svg) center/23px
                     no-repeat;
             }
             &-grape {
-                background: url(../../images/nav/ico--nav-grape.svg) center/20px
+                background: url(../../images/nav/ico--nav-grape.svg) center/23px
                     no-repeat;
             }
             &-hanok {
-                background: url(../../images/nav/ico--nav-hanok.svg) center/20px
+                background: url(../../images/nav/ico--nav-hanok.svg) center/25px
                     no-repeat;
             }
             &-island {
                 background: url(../../images/nav/ico--nav-island.svg)
-                    center/20px no-repeat;
+                    center/25px no-repeat;
             }
             &-house {
                 background: url(../../images/nav/ico--nav-house.svg) center/20px
                     no-repeat;
+            }
+            &-kids {
+                background: url(../../images/nav/ico--nav-kids.svg) center/20px
+                    no-repeat;
+            }
+            &-lake {
+                background: url(../../images/nav/ico--nav-lake.svg) center/20px
+                    no-repeat;
+            }
+            &-landscape {
+                background: url(../../images/nav/ico--nav-landscape.svg)
+                    center/20px no-repeat;
+            }
+            &-luxe {
+                background: url(../../images/nav/ico--nav-luxe.svg) center/20px
+                    no-repeat;
+            }
+            &-mansion {
+                background: url(../../images/nav/ico--nav-mansion.svg)
+                    center/20px no-repeat;
+            }
+            &-micro {
+                background: url(../../images/nav/ico--nav-micro.svg) center/20px
+                    no-repeat;
+            }
+            &-park {
+                background: url(../../images/nav/ico--nav-park.svg) center/20px
+                    no-repeat;
+            }
+            &-piano {
+                background: url(../../images/nav/ico--nav-piano.svg) center/20px
+                    no-repeat;
+            }
+            &-pisa {
+                background: url(../../images/nav/ico--nav-pisa.svg) center/20px
+                    no-repeat;
+            }
+            &-pool {
+                background: url(../../images/nav/ico--nav-pool.svg) center/20px
+                    no-repeat;
+            }
+            &-room {
+                background: url(../../images/nav/ico--nav-room.svg) center/20px
+                    no-repeat;
+            }
+            &-scenery {
+                background: url(../../images/nav/ico--nav-scenery.svg)
+                    center/20px no-repeat;
+            }
+            &-ski {
+                background: url(../../images/nav/ico--nav-ski.svg) center/20px
+                    no-repeat;
+            }
+            &-snowflake {
+                background: url(../../images/nav/ico--nav-snowflake.svg)
+                    center/20px no-repeat;
+            }
+            &-space {
+                background: url(../../images/nav/ico--nav-space.svg) center/20px
+                    no-repeat;
+            }
+            &-surf {
+                background: url(../../images/nav/ico--nav-surf.svg) center/20px
+                    no-repeat;
+            }
+            &-ticket {
+                background: url(../../images/nav/ico--nav-ticket.svg)
+                    center/20px no-repeat;
+            }
+            &-unique {
+                background: url(../../images/nav/ico--nav-unique.svg)
+                    center/20px no-repeat;
             }
         }
         &--menu {
@@ -100,7 +175,7 @@ button {
                 no-repeat;
         }
         &--user {
-            background: url(../../images/icon/header/ico--user.svg) center/20px
+            background: url(../../images/icon/header/ico--user.svg) center/15px
                 no-repeat;
         }
         &--filter {

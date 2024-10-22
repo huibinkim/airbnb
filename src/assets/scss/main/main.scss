@@ -46,17 +46,17 @@ header {
 
             &__btn {
                 @include flex(center, center);
-                gap: 16px;
+                gap: 8px;
 
                 span {
-                    padding: 8px 12px;
+                    padding: 8px 14px;
                     border-radius: 20px;
                     font-size: $default;
                     color: $gray-menu;
 
                     &:hover {
                         color: $light-black;
-                        background-color: $light-gray;
+                        background-color: $gray-hover;
                     }
                 }
             }
@@ -69,7 +69,8 @@ header {
             padding-top: 10px;
 
             &__con {
-                width: 50%;
+                width: 53%;
+                height: 70px;
                 @include border-radius(50px);
                 @include flex(center, space-between);
 
@@ -90,31 +91,69 @@ header {
                     }
                 }
 
-                .search-box {
-                    @include flex(flex-start, flex-start);
+                .search--box {
+                    @include flex(flex-start, space-around);
                     flex-direction: column;
                     gap: 5px;
                     position: relative;
 
                     padding: 14px 24px;
-                    font-size: 14px;
+                    font-size: 12px;
+
+                    &__inner {
+                        font-size: 14px;
+                    }
+                    // bar css
+                    .bar {
+                        &::before {
+                            display: inline-block;
+                            content: " ";
+                            width: 1px;
+                            height: 36px;
+                            position: absolute;
+                            top: 16px;
+                            left: 0;
+                            border: 1px solid $light-gray;
+                            background-color: $light-gray;
+                        }
+                    }
 
                     input::placeholder {
-                        font-size: 16px;
+                        font-size: 14px;
                     }
                 }
 
-                // bar css
-                .bar {
-                    &::before {
-                        display: inline-block;
-                        content: " ";
-                        width: 1px;
-                        height: 43px;
-                        position: absolute;
-                        left: 0;
-                        border: 1px solid $light-gray;
+                > div {
+                    height: 68px;
+                    cursor: pointer;
+
+                    &:hover {
+                        border-radius: 50px;
                         background-color: $light-gray;
+                        .bar {
+                            &::before {
+                                visibility: hidden;
+                            }
+                        }
+                        + div {
+                            .bar {
+                                &::before {
+                                    visibility: hidden;
+                                }
+                            }
+                        }
+                    }
+                    &:nth-child(1) {
+                        width: 34%;
+                    }
+                    &:nth-child(2) {
+                        width: 17%;
+                    }
+                    &:nth-child(3) {
+                        width: 17%;
+                    }
+                    &:nth-child(4) {
+                        width: 32%;
                     }
                 }
             }
@@ -122,26 +161,50 @@ header {
         &--admin {
             width: 21%;
             @include flex(center, flex-end);
-            gap: 20px;
             font-size: 14px;
+            &__sell {
+                padding: 8px 14px;
+                border-radius: 20px;
 
+                &:hover {
+                    background-color: $gray-hover;
+                }
+            }
             &__lang {
-                height: 20px;
+                padding-right: 14px;
+
+                button {
+                    display: flex;
+                    align-items: center;
+                    padding: 10px;
+                    border-radius: 50%;
+
+                    &:hover {
+                        background-color: $gray-hover;
+                    }
+                }
             }
             &__gnb {
                 @include flex(center, normal);
                 gap: 12px;
-                padding: 8px 12px;
+                padding: 4px 12px;
                 border: 1px solid $light-gray;
                 border-radius: 50px;
                 cursor: pointer;
+
+                &:hover {
+                    box-shadow: 0 3px 12px 0 rgba(0, 0, 0, 0.1),
+                        0 1px 2px 0 rgba(0, 0, 0, 0.08);
+                }
+
                 .gnb--menu {
                     height: 20px;
                 }
+
                 .gnb--user {
                     display: flex;
                     align-items: center;
-                    padding: 10px;
+                    padding: 6px;
                     border-radius: 100%;
                     background-color: $black;
 
@@ -179,9 +242,9 @@ header {
         font-size: 12px;
 
         &__list {
-            width: calc(94% - 20px);
+            width: calc(100% - 20px);
             @include flex(center, flex-start);
-            gap: 20px;
+            gap: 8px;
 
             .nav--icon {
                 @include flex(center, center);
