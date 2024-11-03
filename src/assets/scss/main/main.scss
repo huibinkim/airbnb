@@ -20,7 +20,7 @@ header {
     .header {
         @include flex(center, space-between);
         flex-wrap: wrap;
-        padding: 10px 80px;
+        padding: 20px 80px 10px;
 
         &--title {
             width: 21%;
@@ -66,11 +66,11 @@ header {
         &--search {
             width: 100%;
             @include flex(center, center);
-            padding-top: 10px;
+            padding-top: 20px;
 
             &__con {
                 width: 53%;
-                height: 70px;
+                height: 64px;
                 @include border-radius(50px);
                 @include flex(center, space-between);
 
@@ -122,9 +122,28 @@ header {
                         font-size: 14px;
                     }
                 }
-
+                .seperate--box {
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    justify-content: space-between;
+                    padding: 14px 24px;
+                    .bar {
+                        &::before {
+                            display: inline-block;
+                            content: " ";
+                            width: 1px;
+                            height: 36px;
+                            position: absolute;
+                            top: 16px;
+                            left: 0;
+                            border: 1px solid $light-gray;
+                            background-color: $light-gray;
+                        }
+                    }
+                }
                 > div {
-                    height: 68px;
+                    height: 64px;
                     cursor: pointer;
 
                     &:hover {
@@ -144,16 +163,13 @@ header {
                         }
                     }
                     &:nth-child(1) {
-                        width: 34%;
+                        width: calc(100% / 3);
                     }
                     &:nth-child(2) {
-                        width: 17%;
+                        width: calc(100% / 3);
                     }
                     &:nth-child(3) {
-                        width: 17%;
-                    }
-                    &:nth-child(4) {
-                        width: 32%;
+                        width: calc(100% / 3);
                     }
                 }
             }
@@ -238,18 +254,30 @@ header {
         gap: 10px;
         flex-wrap: nowrap;
 
-        padding: 16px 0;
+        padding: 20px 0;
         font-size: 12px;
 
         &__list {
             width: calc(100% - 20px);
-            @include flex(center, flex-start);
+            @include flex(center, flex-end);
             gap: 8px;
+            padding: 6px 0;
+            position: relative;
+            overflow: hidden;
 
-            .nav--icon {
-                @include flex(center, center);
-                flex-direction: column;
-                cursor: pointer;
+            &-item {
+                @include flex(center, flex-start);
+                gap: 8px;
+                position: absolute;
+                left: 0px;
+
+                .nav--icon {
+                    min-width: 83px;
+                    @include flex(center, center);
+                    gap: 4px;
+                    flex-direction: column;
+                    cursor: pointer;
+                }
             }
         }
         &__arr {

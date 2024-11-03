@@ -33,16 +33,16 @@
                     <!-- 여행 검색 창 -->
                     <div class="header--select">
                         <div class="header--select__btn">
-                            <button>
+                            <button class="header--select__btn--accommodation">
                                 <span>숙소</span>
                             </button>
-                            <button>
+                            <button class="header--select__btn--adventure">
                                 <span>체험</span>
                             </button>
                         </div>
                     </div>
 
-                    <!-- 여행 검색 창 -->
+                    <!--// 여행 검색 창 -->
 
                     <!-- user 메뉴 -->
                     <div class="header--admin">
@@ -75,22 +75,50 @@
                             </div>
                         </div>
                     </div>
-                    <!-- user 메뉴 -->
+                    <!--// user 메뉴 -->
 
+                    <!-- 여행 검색 선택에 따른 여행지 및 구체적 선택 -->
                     <div class="header--search">
                         <div class="header--search__con">
+                            <div class="search--box">
+                                <span>여행지</span>
+                                <input type="search" placeholder="여행지 검색"></input>
+                            </div>
+
+                            <div class="seperate--box">
+                                <div class="search--box">
+                                    <span class="bar">체크인</span>
+                                    <div class="search--box__inner">
+                                        <p>날짜 추가</p>
+                                    </div>
+                                </div>
+                                <div class="search--box">
+                                    <span class="bar">체크아웃</span>
+                                    <div class="search--box__inner">
+                                        <p>날짜 추가</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="search-check">
+                                <div class="search--box">
+                                    <span class="bar">여행자</span>
+                                    <div class="search--box__inner">
+                                        <p>게스트 추가</p>
+                                    </div>
+                                </div>
+                                <button title="검색">
+                                    <i class="ico ico--search"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <!-- <div class="header--search__con adventure">
                             <div class="search--box">
                                 <span>여행지</span>
                                 <input type="search" placeholder="여행지 검사"></input>
                             </div>
                             <div class="search--box">
-                                <span class="bar">체크인</span>
-                                <div class="search--box__inner">
-                                    <p>날짜 추가</p>
-                                </div>
-                            </div>
-                            <div class="search--box">
-                                <span class="bar">체크아웃</span>
+                                <span class="bar">날짜</span>
                                 <div class="search--box__inner">
                                     <p>날짜 추가</p>
                                 </div>
@@ -106,8 +134,10 @@
                                     <i class="ico ico--search"></i>
                                 </button>
                             </div>
-                        </div>
+                        </div> -->
                     </div>
+                    <!--// 여행 검색 선택에 따른 여행지 및 구체적 선택 -->
+
                 </div>
             </header>
 
@@ -115,7 +145,7 @@
                 <!-- 테마 별 선택 바 -->
                 <nav class="nav--con">
                     <div class="nav--con__list">
-                        <ul class="nav--con__list">
+                        <ul class="nav--con__list-item">
                             <li class="nav--icon">
                                 <button><i class="ico ico--nav-ticket"></i></button>
                                 <span>컬처 아이콘</span>
@@ -173,6 +203,10 @@
                                 <span>컬처 아이콘</span>
                             </li>
                             <li class="nav--icon">
+                                <button><i class="ico ico--nav-container"></i></button>
+                                <span>컬처 아이콘</span>
+                            </li>
+                            <li class="nav--icon">
                                 <button><i class="ico ico--nav-grape"></i></button>
                                 <span>컬처 아이콘</span>
                             </li>
@@ -182,6 +216,18 @@
                             </li>
                             <li class="nav--icon">
                                 <button><i class="ico ico--nav-fire"></i></button>
+                                <span>컬처 아이콘</span>
+                            </li>
+                            <li class="nav--icon">
+                                <button><i class="ico ico--nav-kids"></i></button>
+                                <span>컬처 아이콘</span>
+                            </li>
+                            <li class="nav--icon">
+                                <button><i class="ico ico--nav-kids"></i></button>
+                                <span>컬처 아이콘</span>
+                            </li>
+                            <li class="nav--icon">
+                                <button><i class="ico ico--nav-kids"></i></button>
                                 <span>컬처 아이콘</span>
                             </li>
                             <li class="nav--icon">
@@ -766,6 +812,7 @@
                 
             </main>
 
+            <!-- footer -->
             <footer class="footer" role="contentinfo">
                 <div class="footer--above">
                     <nav class="footer--above__company">
@@ -806,6 +853,7 @@
                     <p>에어비앤비는 통신판매 중개자로 에어비앤비 플랫폼을 통하여 게스트와 호스트 사이에 이루어지는 통신판매의 당사자가 아닙니다. 에어비앤비 플랫폼을 통하여 예약된 숙소, 체험, 호스트 서비스에 관한 의무와 책임은 해당 서비스를 제공하는 호스트에게 있습니다.</p>
                 </div>
             </footer>
+            <!--// footer -->
         </div>
     </body>
 

@@ -20,7 +20,7 @@ header .header {
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
-  padding: 10px 80px;
+  padding: 20px 80px 10px;
 }
 header .header--title {
   width: 21%;
@@ -61,18 +61,18 @@ header .header--select__btn span {
 }
 header .header--select__btn span:hover {
   color: #222222;
-  background-color: #eeeeee;
+  background-color: #f1f1f1;
 }
 header .header--search {
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-top: 10px;
+  padding-top: 20px;
 }
 header .header--search__con {
   width: 53%;
-  height: 70px;
+  height: 64px;
   border-radius: 50px;
   background-clip: padding-box;
   display: flex;
@@ -124,8 +124,26 @@ header .header--search__con .search--box input::-moz-placeholder {
 header .header--search__con .search--box input::placeholder {
   font-size: 14px;
 }
+header .header--search__con .seperate--box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 24px;
+}
+header .header--search__con .seperate--box .bar::before {
+  display: inline-block;
+  content: " ";
+  width: 1px;
+  height: 36px;
+  position: absolute;
+  top: 16px;
+  left: 0;
+  border: 1px solid #dfdfdf;
+  background-color: #dfdfdf;
+}
 header .header--search__con > div {
-  height: 68px;
+  height: 64px;
   cursor: pointer;
 }
 header .header--search__con > div:hover {
@@ -139,16 +157,13 @@ header .header--search__con > div:hover + div .bar::before {
   visibility: hidden;
 }
 header .header--search__con > div:nth-child(1) {
-  width: 34%;
+  width: 33.3333333333%;
 }
 header .header--search__con > div:nth-child(2) {
-  width: 17%;
+  width: 33.3333333333%;
 }
 header .header--search__con > div:nth-child(3) {
-  width: 17%;
-}
-header .header--search__con > div:nth-child(4) {
-  width: 32%;
+  width: 33.3333333333%;
 }
 header .header--admin {
   width: 21%;
@@ -162,7 +177,7 @@ header .header--admin__sell {
   border-radius: 20px;
 }
 header .header--admin__sell:hover {
-  background-color: #eeeeee;
+  background-color: #f1f1f1;
 }
 header .header--admin__lang {
   padding-right: 14px;
@@ -174,7 +189,7 @@ header .header--admin__lang button {
   border-radius: 50%;
 }
 header .header--admin__lang button:hover {
-  background-color: #eeeeee;
+  background-color: #f1f1f1;
 }
 header .header--admin__gnb {
   display: flex;
@@ -223,20 +238,33 @@ header .header--admin__gnb .gnb--sub {
   justify-content: space-between;
   gap: 10px;
   flex-wrap: nowrap;
-  padding: 16px 0;
+  padding: 20px 0;
   font-size: 12px;
 }
 .content .nav--con__list {
   width: calc(100% - 20px);
   display: flex;
   align-items: center;
+  justify-content: flex-end;
+  gap: 8px;
+  padding: 6px 0;
+  position: relative;
+  overflow: hidden;
+}
+.content .nav--con__list-item {
+  display: flex;
+  align-items: center;
   justify-content: flex-start;
   gap: 8px;
+  position: absolute;
+  left: 0px;
 }
-.content .nav--con__list .nav--icon {
+.content .nav--con__list-item .nav--icon {
+  min-width: 83px;
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 4px;
   flex-direction: column;
   cursor: pointer;
 }
